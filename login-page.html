@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="login-page.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <img align="left"src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="image-photo" width="500" height="600">
+    <h2 id="login-header-left">Welcome back</h4>
+    <h4 id="login-header">Login to your account</h2>
+    <form id="login-form">
+      <input type="Password" name="Password" id="Password-field" class="login-form-field" placeholder="Password">
+      <input type="text" name="Email" id="username-field" class="login-form-field" placeholder="Email">
+      <div class="content">
+				<div class="checkbox" id="remember-me">
+					<label for="remember-me">Remember me</label>
+				</div>
+				<div class="pass-link"><a href="#">forgot password?</a></div>
+			</div>
+      <input type="submit" value="Login" id="login-form-submit">
+      <div></div>
+      <input type="submit" value="Or Sign-in with google" id="login-form-submit">
+      <div></div>
+      <div id="login-error-msg-holder">
+        <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+      </div>
+
+    </form>
+  
+  </main>
+</body>
+
+</html>
